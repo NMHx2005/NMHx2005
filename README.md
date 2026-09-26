@@ -1,95 +1,117 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=534AB7,1D9E75&height=220&section=header&text=Nguyễn%20Mạnh%20Hùng&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Fullstack%20Developer%20·%20Hà%20Nội%2C%20VN&descAlignY=56&descColor=d0f0e8&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:534AB7,100:1D9E75&height=230&section=header&text=Nguyễn%20Mạnh%20Hùng&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Fullstack%20Developer%20·%20Hà%20Nội%2C%20Việt%20Nam&descAlignY=56&descSize=18" width="100%" alt="Nguyễn Mạnh Hùng — Fullstack Developer"/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=900&color=534AB7&center=true&vCenter=true&multiline=true&width=620&height=60&lines=The+best+code+is+not+the+one+that+works%E2%80%94;it%27s+the+one+that+still+makes+sense+at+2am." alt="Typing SVG" />
+<a href="https://github.com/NMHx2005">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=3000&pause=1000&color=1D9E75&center=true&vCenter=true&width=640&height=32&lines=Fullstack+Developer+%C2%B7+React+%2F+Next.js+%2F+Node.js;Building+crossweave+%E2%80%94+parallel+AI+agents%2C+zero+collisions;Shipping+web+apps+from+Figma+to+production;Good+code+still+makes+sense+at+2am." alt="Typing SVG"/>
 </a>
 
-<br/>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=NMHx2005&color=534AB7&style=flat-square&label=Profile+views" alt="Profile views"/>
+  <a href="https://github.com/NMHx2005?tab=followers"><img src="https://img.shields.io/github/followers/NMHx2005?style=flat-square&color=1D9E75&label=Followers&logo=github" alt="Followers"/></a>
+  <img src="https://img.shields.io/badge/Open%20to-Full--time%20·%20Freelance-F0997B?style=flat-square" alt="Open to work"/>
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=NMHx&color=534AB7&style=flat-square&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/NMHx?style=flat-square&color=1D9E75&label=Followers)](https://github.com/NMHx)
-[![Telegram](https://img.shields.io/badge/-@nmhx__white-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/nmhx_white)
-[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://web.facebook.com/profile.php?id=100084510032828)
-[![Email](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22092005nguyenhung@gmail.com)
+<p>
+  <a href="mailto:22092005nguyenhung@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://t.me/nmhx_white"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <a href="https://web.facebook.com/profile.php?id=100084510032828"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
+</p>
 
 </div>
 
 ---
 
-## `whoami`
+## `$ whoami`
 
 ```typescript
 const hung = {
-  name      : "Nguyễn Mạnh Hùng",
-  alias     : "NMHx",
-  location  : "Hoàng Mai, Hà Nội 🇻🇳",
-  role      : "Fullstack Developer",
-  experience: "2–3 years",
-  openTo    : ["Full-time", "Freelance", "Collaboration"],
-  contact   : {
-    email   : "22092005nguyenhung@gmail.com",
-    telegram: "@nmhx_white",
-  },
-  // The best code is not the one that works —
-  // it's the one that still makes sense at 2am.
-  available : true,
+  name       : "Nguyễn Mạnh Hùng",
+  alias      : "NMHx",
+  location   : "Hoàng Mai, Hà Nội 🇻🇳",
+  role       : "Fullstack Developer",
+  experience : "2–3 years",
+  building   : ["LMS & admin dashboards", "Realtime chat & video", "SEO-first marketing sites", "Dev tools for AI agents"],
+  nowShipping: "crossweave",
+  openTo     : ["Full-time", "Freelance", "Collaboration"],
+  contact    : { email: "22092005nguyenhung@gmail.com", telegram: "@nmhx_white" },
+  motto      : "The best code is not the one that works — it's the one that still makes sense at 2am.",
 } as const;
 ```
 
 ---
 
-## 🧩 Fullstack Architecture
+## 🚀 Spotlight — [crossweave](https://github.com/NMHx2005/crossweave)
 
-```
-┌─────────────────────────┐          ┌─────────────────────────┐
-│        FRONTEND         │          │         BACKEND          │
-│─────────────────────────│          │─────────────────────────│
-│  React · Next.js        │  ◄─────► │  Node.js · NestJS       │
-│  TypeScript             │   REST   │  Express.js             │
-│  TailwindCSS · SCSS     │  ◄─────► │  MongoDB · Mongoose     │
-│  Redux · Zustand        │ WebSocket│  Socket.io              │
-│  Vite · Webpack         │          │  Firebase               │
-└─────────────────────────┘          └─────────────────────────┘
-                    │                          │
-                    └──────────────────────────┘
-                           Tools & DevOps
-                      Git · GitHub · Figma · Postman
+> **Run N parallel AI coding agents on one repo, safely.**
+> Your agents are the warp threads — crossweave is the weft that holds the fabric together.
+
+<p>
+  <a href="https://github.com/NMHx2005/crossweave/releases"><img src="https://img.shields.io/github/v/release/NMHx2005/crossweave?style=flat-square&color=534AB7" alt="Release"/></a>
+  <a href="https://github.com/NMHx2005/crossweave/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/NMHx2005/crossweave/ci.yml?branch=main&style=flat-square&label=ci" alt="CI"/></a>
+  <img src="https://img.shields.io/github/license/NMHx2005/crossweave?style=flat-square&color=1D9E75" alt="License"/>
+  <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+</p>
+
+A local-first layer that sits **above** Claude Code, Cursor Agent and any [ACP](https://agentclientprotocol.com)-compatible agent:
+
+- 🧵 **Worktree isolation** — every agent gets its own git worktree *and* its own runtime (ports, DB, Docker, cache)
+- 📡 **Collision radar** — spots agents about to touch the same code before they conflict
+- 🔀 **Convergence-based auto-merge** — merges work back once it's proven to fit together
+- 🖥️ **Live TUI** — watch every agent in one terminal
+
+---
+
+## 💼 Featured Projects
+
+| Project | What it does | Stack | Links |
+|---|---|---|---|
+| 🎓 **[LMS Platform](https://github.com/NMHx2005/lms-backend)** | Full learning platform — JWT auth, role-based access (Student / Teacher / Admin), courses → sections → lessons, enrollment, subscription plans | `React` `Vite` `Express` `TypeScript` `MongoDB` `Docker` | [Demo](https://lms-frontend-mocha-eight.vercel.app) · [FE](https://github.com/NMHx2005/lms-frontend) · [BE](https://github.com/NMHx2005/lms-backend) |
+| 💬 **[Chat System](https://github.com/NMHx2005/chat_system_BE)** | Realtime text & video chat — 54 REST endpoints, groups & channels, file upload, PeerJS video calls, admin panel | `Angular 18` `Express` `MongoDB` `Socket.io` `PeerJS` | [Demo](https://chat-system-fe-opal.vercel.app) · [FE](https://github.com/NMHx2005/chat_system_FE) · [BE](https://github.com/NMHx2005/chat_system_BE) |
+| 🔬 **[Project Chíp Chíp](https://github.com/NMHx2005/chip_chip)** | Bilingual (VI / EN) non-profit semiconductor learning community for high-school students — lessons, forum, admin CMS | `Next.js` `Supabase` `next-intl` `Tiptap` `Framer Motion` | [Repo](https://github.com/NMHx2005/chip_chip) |
+| 🏢 **[MinhLoc Group](https://github.com/NMHx2005/MinhLoc_FE)** | Client real-estate website, built SEO-first — SSR/SSG, JSON-LD structured data, sitemap, optimized images | `Next.js 14` `TypeScript` `Material UI` `Docker` | [Repo](https://github.com/NMHx2005/MinhLoc_FE) |
+
+---
+
+## 🧩 How I Build
+
+```mermaid
+flowchart LR
+    UI["🎨 <b>Frontend</b><br/>React · Next.js · Angular<br/>TypeScript · Tailwind · SCSS<br/>Redux · Zustand · Framer Motion"]
+    API["⚙️ <b>Backend</b><br/>Node.js · NestJS · Express<br/>JWT · RBAC · Socket.io"]
+    DB[("🗄️ <b>Data</b><br/>MongoDB · PostgreSQL<br/>Supabase · Firebase")]
+    OPS["🚢 <b>Ship</b><br/>Docker · GitHub Actions<br/>Vercel"]
+
+    UI <-->|REST · WebSocket| API
+    API <--> DB
+    API -.-> OPS
+    UI -.-> OPS
+
+    classDef fe fill:#534AB7,stroke:#3C3489,color:#fff
+    classDef be fill:#1D9E75,stroke:#157A5A,color:#fff
+    classDef db fill:#F0997B,stroke:#C9765B,color:#1a1a1a
+    classDef ops fill:#161b22,stroke:#534AB7,color:#fff
+    class UI fe
+    class API be
+    class DB db
+    class OPS ops
 ```
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend**
+<div align="center">
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+| | |
+|:---:|:---|
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,angular,ts,js,tailwind,sass,redux,vite&perline=9" alt="Frontend"/> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,bun&perline=9" alt="Backend"/> |
+| **Data & Cloud** | <img src="https://skillicons.dev/icons?i=mongodb,postgres,supabase,firebase,docker,vercel&perline=9" alt="Data and cloud"/> |
+| **Tooling** | <img src="https://skillicons.dev/icons?i=git,github,githubactions,figma,postman&perline=9" alt="Tooling"/> |
 
-**Backend**
-
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-
-**Database & Cloud**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+</div>
 
 ---
 
@@ -97,44 +119,31 @@ const hung = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=NMHx&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=534AB7&icon_color=1D9E75&bg_color=0d1117&text_color=c9d1d9&ring_color=534AB7" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NMHx&layout=compact&theme=tokyonight&hide_border=true&title_color=534AB7&bg_color=0d1117&text_color=c9d1d9&langs_count=8" />
+<img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile details"/>
+
+<img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="Stats"/>
+<img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="Productive time"/>
+
+<img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repos per language"/>
+<img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most commit language"/>
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com/?user=NMHx2005&theme=tokyonight&hide_border=true&background=0D1117&ring=534AB7&fire=F0997B&currStreakLabel=1D9E75&sideLabels=1D9E75&dates=8B949E" alt="GitHub streak" width="100%"/>
+</a>
 
 </div>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=NMHx&theme=tokyonight&hide_border=true&ring=534AB7&fire=F0997B&currStreakLabel=1D9E75&sideLabels=1D9E75)](https://git.io/streak-stats)
-
-</div>
-
 ---
 
-## 📈 Contribution Graph
-
-[![NMHx's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NMHx&bg_color=0d1117&color=1D9E75&line=534AB7&point=F0997B&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
-## 💼 Featured Projects
-
-| # | Project | Description | Stack | Link |
-|---|---------|-------------|-------|------|
-| 1 | **Project Name** | Mô tả ngắn dự án của bạn | `Next.js` `TypeScript` `MongoDB` | [🔗 Repo](#) |
-| 2 | **Project Name** | Mô tả ngắn dự án của bạn | `React` `Socket.io` `NestJS` | [🔗 Repo](#) |
-| 3 | **Project Name** | Mô tả ngắn dự án của bạn | `Next.js` `TailwindCSS` `Firebase` | [🔗 Repo](#) |
-
-> _Thay các placeholder bằng tên + link dự án thật của bạn_
-
----
-
-## 📫 Contact
+## 🐍 Contribution Snake
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/📧_22092005nguyenhung@gmail.com-534AB7?style=for-the-badge)](mailto:22092005nguyenhung@gmail.com)
-[![Telegram](https://img.shields.io/badge/✈_@nmhx__white-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/nmhx_white)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://web.facebook.com/profile.php?id=100084510032828)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NMHx2005/NMHx2005/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NMHx2005/NMHx2005/output/github-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/NMHx2005/NMHx2005/output/github-snake-dark.svg" alt="Snake eating my contribution graph"/>
+</picture>
 
 </div>
 
@@ -142,8 +151,13 @@ const hung = {
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1D9E75,534AB7&height=110&section=footer" width="100%"/>
+### 📫 Let's build something great
 
-**Fullstack Developer · Available for hire · Let's build something great 🚀**
+Have a product idea, a freelance gig, or a full-time role? I reply fastest on **Telegram**.
+
+<a href="mailto:22092005nguyenhung@gmail.com"><img src="https://img.shields.io/badge/📧_22092005nguyenhung@gmail.com-534AB7?style=for-the-badge" alt="Email"/></a>
+<a href="https://t.me/nmhx_white"><img src="https://img.shields.io/badge/@nmhx__white-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D9E75,100:534AB7&height=120&section=footer" width="100%" alt=""/>
 
 </div>
